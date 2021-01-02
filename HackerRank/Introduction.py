@@ -61,5 +61,40 @@ if __name__ == '__main__':
 
 # Loops
 '''
-
+Print the square of each number on a separate line.
 '''
+if __name__ == '__main__':
+    n = int(input())
+    
+    for x in range(0, n):
+        print(x**2)
+
+# Write a function
+'''
+Given a year, determine whether it is a leap year. If it is a leap year, return the Boolean True, otherwise return False.
+'''
+def is_leap(year):
+    leap = False
+    
+    if (year % 4 == 0) and (year % 100 == 0) and (year % 400 == 0):
+            leap = True
+            
+    elif (year % 4 == 0) and (year % 100 != 0):
+        leap = True
+            
+    return leap
+
+year = int(input())
+
+# Print Function
+'''
+Print the list of integers from 1 through n as a string, without spaces.
+'''
+if __name__ == '__main__':
+    n = int(input())
+    
+    number = ''
+    for i in range(1, n+1):
+        number = number + str(i)
+        
+    print(number)
