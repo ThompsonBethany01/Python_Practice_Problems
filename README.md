@@ -1,1 +1,3 @@
-# Python_Practice_Problems
+# Python Practice Problems
+
+Exercises from HackerRank, Udemy, etc.
